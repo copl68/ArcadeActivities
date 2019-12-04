@@ -22,7 +22,7 @@ class Ada_or_Potato(arcade.Window):
         """ Setup the game (or reset the game) """
         self.time = 0
         self.score = 0
-        arcade.set_background_color(arcade.color.AQUA)
+        arcade.set_background_color(arcade.color.AFRICAN_VIOLET)
         self.image_list = arcade.SpriteList()
         self.ada_sprite = arcade.Sprite('images/ada.png')
         self.ada_sprite.center_x = WINDOW_WIDTH/2
